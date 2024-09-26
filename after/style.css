@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/*----------------------------------------------------------------default*/
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+/*===============================================================All*/
+body {
+    margin: 0;
+    padding: 0;
+    color: #797e81;
+    font-family: serif;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 2.1;
+    -webkit-text-size-adjust: 100%;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+/*===========================================================ここから追加*/
+#kv {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(images/kv.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    color: white;
+}
+
+#about {
+    background: #fff;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    margin: 30px 0 0;
+}
+
+.btn a {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 140px;
+    height: 42px;
+    border: 2px solid yellowgreen;
+    background-color: white;
+    border-radius: 21px;
+    color: yellowgreen;
+    font-size: 1.5rem;
+    line-height: 38px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.btn a:hover {
+    background-color: yellowgreen;
+    color: white;
+}
