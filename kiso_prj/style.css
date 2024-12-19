@@ -111,8 +111,21 @@ footer .logo{
     font-size: 11rem;
 }
 
+#about{
+    padding: 65px 0;
+    background-color: aqua;
+}
+
 #about h1{
     color: #2e4551;
+}
+
+#about .lead{
+    margin: 0 0 65px;
+}
+
+#about .contents-blk{
+    width: 320px;
 }
 
 #about h2{
@@ -125,12 +138,37 @@ footer .logo{
     font-size: 1.5rem;
     line-height: 38px;
     color: #ea7558;
+    width: 140px;
+    height: 42px;
+    border: 2px solid #ea7558;
+    box-sizing: border-box;
+}
+
+#about.btn i{
+    margin: 0 0 0 .3em;
+}
+
+#feature{
+    background-color: black;
+}
+
+#feature .feature-image{
+    width: 50%;
+    background-color: beige;
+}
+
+#feature .feature-text{
+    width: 50%;
+    padding: 90pX 0 90px 100px;
+    box-sizing: border-box;
+    background-color: purple;
 }
 
 #feature h1{
     line-height: 1.3;
     color: #fff;
     letter-spacing: 0.1em;
+    margin: 0 0 20px;
 }
 
 #feature .lead{
@@ -141,6 +179,7 @@ footer .logo{
 
 #feature .contents-blk{
      color: #cfd5d8;
+     margin: 80px 0 0;
 }
 
 #feature h2{
@@ -148,6 +187,10 @@ footer .logo{
     line-height: 1.3;
     font-weight: normal;
     letter-spacing: 0.05em;
+    width: 90px;
+    height: 90px;
+    margin: 0 20px 0 0;
+    border: 1px solid #cfd5d8;
 }
 
 #menu h1{
