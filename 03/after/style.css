@@ -1,0 +1,1072 @@
+@charset "UTF-8";
+
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Noto Serif JP", serif;
+    font-size: 1.6rem;
+    line-height: 2.1;
+    color: #797e81;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    padding: 0;
+    list-style-type: none;
+}
+
+.inner {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/* -----------------------------------------------ヘッダ */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background: #fff;
+    box-shadow: 0 6px 3px -3px rgba(0, 0, 0, .1);
+}
+
+header .inner {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: #2e4551;
+    font-size: 8rem;
+}
+
+header .logo a {
+    color: #2e4551;
+}
+
+header .menu-btn {
+    display: none;
+}
+
+header .header-nav ul {
+    display: flex;
+}
+
+header .header-nav li a {
+    font-size: 1.5rem;
+    color: #2e4551;
+    margin: 0 0 0 50px;
+    letter-spacing: 0.31em;
+}
+
+/* -----------------------------------------------フッタ */
+footer {
+    padding: 120px 0 0;
+    position: relative;
+    background: #1d2326;
+}
+
+footer .logo {
+    color: #d4dde2;
+    font-size: 11rem;
+}
+
+footer a {
+    color: #ea7558;
+}
+
+footer .wrap-blk {
+    margin: 0 0 120px;
+    display: flex;
+}
+
+footer .wrap-blk p {
+    font-size: 1.5rem;
+    line-height: 2.333333;
+    color: #d4dde2;
+    width: 50%;
+    margin: 0 25px;
+    text-align: right;
+}
+
+footer .wrap-blk ul {
+    font-size: 2.2rem;
+    line-height: 1.527272;
+    color: #d4dde2;
+    width: 50%;
+    margin: 0 25px;
+    letter-spacing: 0.045em;
+    text-align: left;
+}
+
+footer .wrap-blk li i {
+    margin: 0 .3em 0 0;
+}
+
+footer .copyright {
+    font-size: 1.5rem;
+    color: #d4dde2;
+    padding: 60px 0;
+    letter-spacing: 0.04em;
+    background: #111619;
+}
+
+/* -----------------------------------------------ヘッダ */
+#home #kv {
+    width: 100%;
+    height: 712px;
+    position: fixed;
+    top: 100px;
+    background: url(images/kv.png) no-repeat center top/cover;
+}
+
+#home section {
+    position: relative;
+    background: #fff
+}
+
+#home section h1 {
+    font-size: 3.8rem;
+    margin: 0 0 65px;
+}
+
+#home #about {
+    margin: 812px 0 0;
+    padding: 65px 0;
+}
+
+#home #about h1 {
+    color: #2e4551;
+}
+
+#home #about .lead {
+    margin: 0 0 65px;
+}
+
+#home #about .wrap-blk {
+    display: flex;
+    justify-content: space-between;
+}
+
+#home #about .wrap-blk .contents-blk {
+    width: 321px;
+}
+
+#home #about .wrap-blk .contents-blk h2 {
+    font-size: 2.7rem;
+    color: #2e4551;
+    letter-spacing: 0.08em;
+}
+
+#home #about .wrap-blk .contents-blk#sai h2:before {
+    display: block;
+    content: url(images/ico01.png);
+}
+
+#home #about .wrap-blk .contents-blk#kisetsu h2:before {
+    display: block;
+    content: url(images/ico02.png);
+}
+
+#home #about .wrap-blk .contents-blk#ohashi h2:before {
+    display: block;
+    content: url(images/ico03.png);
+}
+
+#home #about .wrap-blk .contents-blk .btn a {
+    font-size: 1.5rem;
+    line-height: 38px;
+    color: #ea7558;
+    width: 140px;
+    height: 42px;
+    border: 2px solid #ea7558;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 21px;
+}
+
+#home #about .wrap-blk .contents-blk .btn a i {
+    margin: 0 0 0 .3em;
+}
+
+#home #feature {
+    display: flex;
+    background: #1d2326;
+}
+
+#home #feature .feature-image {
+    width: 50%;
+    background: url(images/photo_sec02.png) no-repeat center bottom/cover;
+}
+
+#home #feature .feature-text {
+    width: 50%;
+    padding: 90px 0 90px 100px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+#home #feature h1 {
+    line-height: 1.3;
+    color: #fff;
+    letter-spacing: 0.12em;
+    margin: 0 0 20px;
+}
+
+#home #feature .lead {
+    font-size: 2.2rem;
+    line-height: 1.3;
+    color: #cfd5d8;
+}
+
+#home #feature .contents-blk {
+    color: #cfd5d8;
+    margin: 80px 0 0;
+    display: flex;
+}
+
+#home #feature .contents-blk h2 {
+    font-size: 2.4rem;
+    line-height: 1.3;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+    width: 90px;
+    height: 90px;
+    margin: 0 20px 0 0;
+    border: 1px solid #cfd5d8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#home #feature .contents-blk h2 span {
+    font-size: 1.2rem;
+    display: block;
+}
+
+#home #menu {
+    padding: 120px 0 20px;
+}
+
+#home #menu .inner {
+    width: 1054px;
+}
+
+#home #menu h1 {
+    color: #2e4551;
+    margin: 0 0 80px;
+}
+
+#home #menu .lead {
+    margin: 0 0 65px;
+}
+
+#home #menu ul {
+    margin: 0 0 110px;
+    display: flex;
+    justify-content: center;
+}
+
+#home #menu li {
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    margin: 0 25px;
+}
+
+#home #menu .item-blk {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#home #menu .item-blk .mix {
+    display: none;
+}
+
+#home #menu .item {
+    width: 233px;
+    padding: 136px 0 20px;
+    margin: 0 15px 100px;
+    border: 2px solid #f0f0f0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#home #menu .item .photo {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: -60px;
+    left: 38px;
+}
+
+#home #menu .item .photo img {
+    border-radius: 50%;
+}
+
+#home #menu h2 {
+    font-size: 1.5rem;
+    color: #2e4551;
+    letter-spacing: 0.05em;
+    margin: 0 0 10px;
+}
+
+#home #menu .text {
+    font-size: 1.5rem;
+    margin: 0 0 20px;
+}
+
+#home #menu .price {
+    font-size: 2.2rem;
+    color: #2e4551;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+}
+
+#home #reservation {
+    color: #fff;
+    padding: 100px 0;
+    position: relative;
+    background: url(images/photo_sec04.png) no-repeat center center/cover;
+}
+
+#home #reservation:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    content: "";
+}
+
+#home #reservation h1,
+#reservation .lead,
+#reservation .btn {
+    position: relative;
+    z-index: 2;
+}
+
+#home #reservation h1 {
+    letter-spacing: 0.08em;
+}
+
+#home #reservation h1:before {
+    display: block;
+    content: url(images/ico04.png);
+}
+
+#home #reservation .btn a {
+    line-height: 44px;
+    color: #fff;
+    width: 220px;
+    height: 44px;
+    display: inline-block;
+    background: #ea7558;
+    border-radius: 3px;
+}
+
+/* -----------------------------------------------当店について */
+#about #page-title {
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    padding: 100px 0;
+    background: url(about/images/bg_about.jpg) no-repeat center center/cover;
+}
+
+#about #page-title:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    content: "";
+}
+
+#about #page-title h1,
+#about #page-title .lead {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+#about #page-title h1 {
+    margin: 0 0 65px;
+    font-size: 3.8rem;
+    font-weight: 600;
+}
+
+#about section {
+    position: relative;
+    padding: 65px 0 0;
+    background: #fff;
+}
+
+#about section#sai {
+    margin: 510px 0 0;
+}
+
+#about section h1 {
+    color: #2e4551;
+    font-size: 2.7rem;
+    font-weight: 600;
+    letter-spacing: .08em;
+}
+
+#about #sai h1:before {
+    display: block;
+    content: url(images/ico01.png);
+}
+
+#about #kisetsu h1:before {
+    display: block;
+    content: url(images/ico02.png);
+}
+
+#about #ohashi h1:before {
+    display: block;
+    content: url(images/ico03.png);
+}
+
+#about section .lead {
+    margin: 0 0 65px;
+}
+
+#about section .wrap-blk {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about section .contents-blk {
+    position: relative;
+    width: 33.3333%;
+    height: 300px;
+}
+
+#about #sai .contents-blk.photo01 {
+    background: url(about/images/sai01.jpg) no-repeat center center/cover;
+}
+
+#about #sai .contents-blk.photo02 {
+    background: url(about/images/sai02.jpg) no-repeat center center/cover;
+}
+
+#about #sai .contents-blk.photo03 {
+    background: url(about/images/sai03.jpg) no-repeat center center/cover;
+}
+
+#about #sai .contents-blk.photo04 {
+    background: url(about/images/sai04.jpg) no-repeat center center/cover;
+}
+
+#about #sai .contents-blk.photo05 {
+    background: url(about/images/sai05.jpg) no-repeat center center/cover;
+}
+
+#about #sai .contents-blk.photo06 {
+    background: url(about/images/sai06.jpg) no-repeat center center/cover;
+}
+
+#about #kisetsu .contents-blk.photo01 {
+    background: url(about/images/kisetsu01.jpg) no-repeat center center/cover;
+}
+
+#about #kisetsu .contents-blk.photo02 {
+    background: url(about/images/kisetsu02.jpg) no-repeat center center/cover;
+}
+
+#about #kisetsu .contents-blk.photo03 {
+    background: url(about/images/kisetsu03.jpg) no-repeat center center/cover;
+}
+
+#about #kisetsu .contents-blk.photo04 {
+    background: url(about/images/kisetsu04.jpg) no-repeat center center/cover;
+}
+
+#about #kisetsu .contents-blk.photo05 {
+    background: url(about/images/kisetsu05.jpg) no-repeat center center/cover;
+}
+
+#about #kisetsu .contents-blk.photo06 {
+    background: url(about/images/kisetsu06.jpg) no-repeat center center/cover;
+}
+
+#about #ohashi .contents-blk.photo01 {
+    background: url(about/images/ohashi01.jpg) no-repeat center center/cover;
+}
+
+#about #ohashi .contents-blk.photo02 {
+    background: url(about/images/ohashi02.jpg) no-repeat center center/cover;
+}
+
+#about #ohashi .contents-blk.photo03 {
+    background: url(about/images/ohashi03.jpg) no-repeat center center/cover;
+}
+
+#about #ohashi .contents-blk.photo04 {
+    background: url(about/images/ohashi04.jpg) no-repeat center center/cover;
+}
+
+#about #ohashi .contents-blk.photo05 {
+    background: url(about/images/ohashi05.jpg) no-repeat center center/cover;
+}
+
+#about #ohashi .contents-blk.photo06 {
+    background: url(about/images/ohashi06.jpg) no-repeat center center/cover;
+}
+
+#about section .contents-blk .text {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background: rgba(0, 0, 0, .7);
+    opacity: 0;
+    color: #fff;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+
+#about section .contents-blk:hover .text {
+    opacity: 1;
+    transition: all .6s ease;
+}
+
+/* -----------------------------------------------お問い合わせ */
+#contact #page-title {
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    padding: 100px 0;
+    background: url(contact/images/bg_contact.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#contact #page-title:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    content: "";
+}
+
+#contact #page-title h1,
+#contact #page-title .lead {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+#contact #page-title h1 {
+    margin: 0 0 65px;
+    font-size: 3.8rem;
+    font-weight: 600;
+}
+
+#contact .form-blk {
+    margin: 510px 0 0;
+    padding: 65px 0;
+    text-align: left;
+    background: #fff;
+    position: relative;
+}
+
+#contact .form-blk .inner {
+    width: 900px;
+}
+
+input,
+button,
+textarea,
+select {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#contact form th {
+    width: 14em;
+    padding: 0 0 50px;
+    font-weight: normal;
+    vertical-align: top;
+}
+
+#contact form td {
+    padding: 0 0 50px;
+}
+
+#contact input#your-name,
+#contact input#phone-num,
+#contact input#e-mail {
+    font-size: 1.8rem;
+    height: 40px;
+    width: 400px;
+    border: 1px solid #c2c2c2;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#contact select {
+    font-size: 1.8rem;
+    height: 40px;
+    width: 100px;
+    border: 1px solid #c2c2c2;
+    border-radius: 0;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#contact textarea {
+    font-size: 1.8rem;
+    width: 600px;
+    height: 300px;
+    border: 1px solid #c2c2c2;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#contact input#btn-submit {
+    font-size: 1.6rem;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    background: #ea7558;
+    border-radius: 5px;
+}
+
+#contact select#day,
+#contact select#time {
+    margin: 0 0 0 2em;
+}
+
+#contact label.your-name-c:after,
+#contact label.phone-num-c:after,
+#contact label.reservation-c:after {
+    content: "※";
+    color: #f00;
+    font-size: 1.4rem;
+    margin: 0 0 0 5px;
+}
+
+#contact .notes {
+    margin: 0 0 30px;
+}
+
+#contact .notes span {
+    color: #f00;
+}
+
+/*--------------------------------------------------------------
+スマホ
+--------------------------------------------------------------*/
+@media screen and (max-width: 414px) {
+    .inner {
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    /* -----------------------------------------------ヘッダ */
+    header .inner {
+        height: 80px;
+    }
+
+    header .logo {
+        font-size: 6rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    header .menu-btn {
+        display: block;
+        position: absolute;
+        right: 3%;
+        top: 10px;
+        padding: 0;
+        width: 34px;
+        height: 34px;
+        line-height: 32px;
+        text-align: center;
+        border: 1px solid #666;
+        background: transparent;
+        border-radius: 50%;
+    }
+
+    .menu-btn:focus {
+        outline: none;
+    }
+
+    header .header-nav {
+        width: 250px;
+        position: fixed;
+        display: block;
+        top: 80px;
+        right: 0;
+        z-index: 1000;
+        background: rgba(255, 255, 255, .8);
+        transition: all 0.2s;
+        transform: translate(250px);
+    }
+
+    header .header-nav.open {
+        transform: translate(0);
+    }
+
+    header .header-nav ul {
+        display: block;
+    }
+
+    header .header-nav li {
+        margin: 0 !important;
+        text-align: center;
+    }
+
+    header .header-nav li a {
+        display: block;
+        width: 100%;
+        padding: 0 10px;
+        height: 30px;
+        line-height: 30px;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    /*-------------------------------フッタ*/
+    footer {
+        padding: 30px 0 0;
+    }
+
+    footer .logo {
+        font-size: 8rem;
+    }
+
+    footer .wrap-blk {
+        display: block;
+        margin: 0 0 30px;
+    }
+
+    footer .wrap-blk p {
+        width: 94%;
+        margin: 0 auto 30px;
+        text-align: left;
+    }
+
+    footer .wrap-blk ul {
+        width: 94%;
+        margin: 0 auto;
+        font-size: 1.8rem;
+    }
+
+    footer .copyright {
+        padding: 30px 0;
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    /*-------------------------------ホーム*/
+    #home section h1 {
+        font-size: 2.7rem;
+        line-height: 1.5;
+    }
+
+    #home #kv {
+        top: 80px;
+        height: 300px;
+    }
+
+    #home #about {
+        margin: 380px 0 0;
+        padding: 30px 0;
+    }
+
+    #home #about h1 {
+        margin: 0 0 30px;
+    }
+
+    #home #about .wrap-blk {
+        display: block;
+    }
+
+    #home #about .wrap-blk .contents-blk {
+        width: 100%;
+        margin: 0 0 60px;
+    }
+
+    #home #about .wrap-blk .contents-blk h2 {
+        font-size: 2.4rem;
+        line-height: 1.5;
+    }
+
+    #home #about .wrap-blk .contents-blk p {
+        font-size: 1.4rem;
+    }
+
+    #home #about .wrap-blk .contents-blk .btn {
+        margin: 10px 0 0;
+    }
+
+    #home #feature {
+        display: block;
+    }
+
+    #home #feature .feature-image {
+        width: 100%;
+        height: 300px;
+    }
+
+    #home #feature .feature-text {
+        width: 100%;
+        padding: 30px;
+    }
+
+    #home #feature .lead {
+        font-size: 2rem;
+    }
+
+    #home #feature .contents-blk {
+        margin: 40px 0 0;
+    }
+
+    #home #feature .contents-blk h2 {
+        width: 80px;
+        height: 80px;
+        font-size: 2rem;
+        letter-spacing: 0;
+    }
+
+    #home #feature .contents-blk h2 span {
+        font-size: 1rem;
+    }
+
+    #home #feature .contents-blk p {
+        width: calc(100% - 100px);
+        font-size: 1.4rem;
+    }
+
+    #home #menu {
+        padding: 30px 0;
+    }
+
+    #home #menu .inner {
+        width: 100%;
+    }
+
+    #home #menu h1 {
+        margin: 0 0 30px;
+    }
+
+    #home #menu .lead {
+        margin: 0 auto 30px;
+        width: 94%;
+    }
+
+    #home #menu ul {
+        flex-wrap: wrap;
+    }
+
+    #home #menu li {
+        margin: 0 15px;
+    }
+
+    #home #menu .item {
+        width: 44%;
+        padding: 80px 0 20px;
+        margin: 0 3% 100px;
+    }
+
+    #home #menu .item .photo {
+        left: calc(50% - 60px);
+        width: 120px;
+        height: 120px;
+    }
+
+    #home #menu .text {
+        font-size: 1.3rem;
+    }
+
+    #home #reservation {
+        padding: 30px 3%;
+        margin: -80px 0 0;
+        box-sizing: border-box;
+    }
+
+    #home #reservation .lead {
+        font-size: 1.2rem;
+    }
+
+    /*-------------------------------当店について*/
+    #about #page-title {
+        top: 80px;
+        padding: 30px 0;
+    }
+
+    #about #page-title h1,
+    #about #page-title .lead {
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    #about #page-title h1 {
+        margin: 0 auto 30px;
+        font-size: 2.7rem;
+    }
+
+    #about section {
+        padding: 30px 0 0;
+    }
+
+    #about section .lead {
+        margin: 0 0 30px;
+    }
+
+    #about section#sai {
+        margin: 358px 0 0;
+    }
+
+    #about section .contents-blk {
+        width: 50%;
+        height: 200px;
+    }
+
+    #about section .contents-blk .text {
+        padding: 15px;
+    }
+
+    #about section .contents-blk .text h2 {
+        font-size: 1.8rem;
+    }
+
+    #about section .contents-blk .text p {
+        font-size: 1.2rem;
+    }
+
+    /*-------------------------------ご予約・お問い合わせ*/
+    #contact #page-title {
+        top: 80px;
+        padding: 30px 0;
+    }
+
+    #contact #page-title h1,
+    #contact #page-title .lead {
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    #contact #page-title h1 {
+        margin: 0 auto 30px;
+        font-size: 2.7rem;
+    }
+
+    #contact .form-blk {
+        margin: 358px 0 0;
+        padding: 30px 0;
+    }
+
+    #contact .form-blk .inner {
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    #contact form table {
+        width: 100%;
+    }
+
+    #contact form th {
+        display: block;
+        width: 100%;
+        padding: 0 0 10px;
+    }
+
+    #contact form td {
+        display: block;
+        width: 100%;
+        padding: 0 0 30px;
+    }
+
+    #contact input#your-name,
+    #contact input#phone-num,
+    #contact input#e-mail {
+        font-size: 1.6rem;
+        width: 100%;
+    }
+
+    #contact select {
+        font-size: 1.6rem;
+        width: 3em;
+    }
+
+    #contact select#day,
+    #contact select#time {
+        margin: 0 0 0 1em;
+    }
+
+    #contact textarea {
+        font-size: 1.6rem;
+        width: 100%;
+    }
+
+    #contact .notes {
+        margin: 0 0 30px;
+        font-size: 1.4rem;
+    }
+
+    #contact input#btn-submit {
+        font-size: 1.6rem;
+        width: 100%;
+        margin: 0;
+    }
+}
